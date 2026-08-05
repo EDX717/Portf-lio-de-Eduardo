@@ -9,9 +9,9 @@ function abrirMenu() {
     menu.classList.toggle("ativo");
 
     if (menu.classList.contains("ativo")) {
-        menuImg.src = "../img/close.png";
+        menuImg.src = "./img/close.png";
     } else {
-        menuImg.src = "../img/menu.png";
+        menuImg.src = "./img/menu.png";
     }
 }
 
@@ -23,7 +23,7 @@ const links = document.querySelectorAll(".ul a");
 links.forEach(link => {
     link.addEventListener("click", () => {
         menu.classList.remove("ativo");
-        menuImg.src = "../img/menu.png";
+        menuImg.src = "./img/menu.png";
     });
 });
 
