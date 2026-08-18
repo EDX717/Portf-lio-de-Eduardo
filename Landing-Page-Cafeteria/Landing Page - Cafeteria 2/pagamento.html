@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagamento - Cafeteria</title>
+</head>
+
+<body class="payment-body">
+    <div class="payment-page">
+        <div class="payment-card">
+            <section class="payment-summary">
+                <p class="eyebrow">Checkout seguro</p>
+                <h1>Finalize o seu pedido</h1>
+                <p>Seu pedido será preparado com carinho e pronto para retirada na cafeteria.</p>
+
+                <div class="summary-box">
+                    <h2>Resumo do pedido</h2>
+                    <p id="item-name">Item: Cappuccino</p>
+                    <p>Entrega: Retirada na loja</p>
+                    <p>Valor: R$ 9,90</p>
+                </div>
+
+                <a href="index.html" class="back-link">← Voltar para o cardápio</a>
+            </section>
+
+            <section class="payment-form">
+                <label>
+                    Nome completo
+                    <input type="text" placeholder="Seu nome">
+                </label>
+
+                <label>
+                    E-mail
+                    <input type="email" placeholder="seu@email.com">
+                </label>
+
+                <label>
+                    Forma de pagamento
+                    <select>
+                        <option>Cartão de crédito</option>
+                        <option>Pix</option>
+                        <option>Boleto</option>
+                    </select>
+                </label>
+
+                <label>
+                    Número do cartão
+                    <input type="text" placeholder="0000 0000 0000 0000">
+                </label>
+
+                <label>
+                    CPF
+                    <input type="text" placeholder="000.000.000-00">
+                </label>
+
+                <button type="button" onclick="mostrarMensagem()">Pagar agora</button>
+                <p class="success-message" id="success-message">Pagamento confirmado! Seu pedido foi recebido.</p>
+            </section>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

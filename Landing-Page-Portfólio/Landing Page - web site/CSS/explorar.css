@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+
+    background-color: #061a33;
+    color: white;
+
+}
+
+
+.explore-container {
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+
+}
+
+
+/* Introdução */
+
+.intro {
+
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+.intro h1 {
+
+    color: #ff8c00;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+
+.intro p {
+
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+
+
+/* Blocos de conteúdo */
+
+.content-section {
+
+    background-color: #0b2748;
+
+    padding: 30px;
+
+    margin-bottom: 45px;
+
+    border: 2px solid #ff8c00;
+
+    border-radius: 10px;
+
+}
+
+
+
+.content-section:hover {
+
+    background-color: #10385f;
+
+    border-color: white;
+
+}
+
+
+
+/* Títulos */
+
+.content-section h2 {
+
+    color: #ff8c00;
+
+    font-size: 25px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* Textos */
+
+.content-section p {
+
+    color: white;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+
+}
+
+
+
+/* Lista */
+
+.content-section ul {
+
+    list-style: none;
+
+}
+
+
+.content-section li {
+
+    color: white;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Tecnologias */
+
+.technologies {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+}
+
+
+.technologies span {
+
+    background-color: #ff8c00;
+
+    color: #061a33;
+
+    padding: 10px 18px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+}
+
+
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+
+
+    .explore-container {
+
+        width: 95%;
+
+        padding: 30px 0;
+
+    }
+
+
+    .intro h1 {
+
+        font-size: 28px;
+
+    }
+
+
+    .intro p {
+
+        font-size: 16px;
+
+    }
+
+
+    .content-section {
+
+        padding: 20px;
+
+        margin-bottom: 30px;
+
+    }
+
+
+    .content-section h2 {
+
+        font-size: 22px;
+
+    }
+
+
+    .technologies {
+
+        justify-content: center;
+
+    }
+
+
+}

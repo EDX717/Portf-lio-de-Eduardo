@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root {
+    --color-1: #622B14;
+    --color-2: #995F2F;
+    --color-Amarelo: #ee9f00;
+    --color-3: #978F66;
+    --color-4: #E4D6A9;
+    --color-5: #fff;
+    --degrade-btn: linear-gradient(#f29447, #d87223);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NavBar */
+
+.NavBar .container nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a120c;
+}
+
+.NavBar .container .logo {
+    background-color: #2c231d;
+    font-size: 20px;
+    margin: 35px;
+    color: var(--color-5);
+    padding: 15px 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px hsl(24, 45%, 84%);
+}
+
+/* GitHub */
+
+.github {
+    display: block;
+    align-items: center;
+    margin: 50px;
+}
+
+.github span {
+    color: white;
+    font-size: 25px;
+}
+
+/* Barra de Navegação */
+
+.NavBar .container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.NavBar .container ul a {
+    color: white;
+    margin: 30px;
+}
+
+.NavBar .container nav ul a:hover {
+    color: var(--color-3);
+}
+
+/* Main Text */
+
+.Section-Main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c1c12;
+}
+
+.Section-Main .container .main-text {
+    width: 50%;
+    margin: 100px;
+    color: white;
+}
+
+.Section-Main .container .main-text h2 {
+    font-size: 2rem;
+    font-family: "Satisfy", cursive;
+    margin-bottom: 30px;
+    color: var(--color-Amarelo);
+}
+
+.Section-Main .container .main-text h1 {
+    font-size: 2.5rem;
+}
+
+.Section-Main .container .main-text p {
+    font-size: 20px;
+    margin-top: 40px;
+    color: #aba79a;
+}
+
+.Section-Main .container .main-text button {
+    background: var(--degrade-btn);
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.Section-Main .container .main-text .botões {
+    display: flex;
+    gap: 20px;
+}
+
+
+.Section-Main .container .main-img {
+    width: 50%;
+}
+
+.Section-Main .container .main-img img {
+    width: 100%;
+}
+
+/* Três Barrinhas */
+
+.menu-icon {
+    display: none;
+    margin: 50px;
+}
+
+/* Bloco de Clientes */
+
+.Bloco-Clientes .container .Clientes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #544e2e;
+}
+
+.Bloco-Clientes .container h2 {
+    font-size: 25px;
+    color: white;
+}
+
+.Bloco-Clientes .container .Clientes p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* Cards */
+
+.card-item .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9rem;
+    margin-top: 20px;
+    padding: 70px;
+}
+
+.card-item .container .card {
+    padding: 23px;
+    border-radius: 20px;
+}
+
+.card-item .container .card h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.card-item .container .card p {
+    font-size: 1rem;
+}
+
+.card-item .container .card img {
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+.card-item .container .card:hover {
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0.5px 37px 10px var(--color-4);
+    cursor: pointer;
+}
+
+/* Texto com imagem */
+
+.Text-Img .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+
+.Text-Img .container .Bloco-img img {
+    width: 80%;
+    margin: 30px;
+    border: 1px solid var(--color-1);
+    border-radius: 30px;
+}
+
+.Text-Img .container .Bloco-Text {
+    width: 100%;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.Text-Img .container .Bloco-Text h2 {
+    font-size: 60px;
+}
+
+.Text-Img .container .Bloco-Text p {
+    font-size: 25px;
+    margin-top: 50px;
+    color: #363228;
+}
+
+.linha {
+    background-color: #5c4600;
+}
+
+.Titulo-Cardapio .container .Titulo {
+    background-color: #202315;
+    padding: 50px;
+}
+
+.Titulo-Cardapio .container .Titulo h1 {
+    background-color: #202315;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Titulo-Cardapio .container .Titulo p {
+    background-color: #202315;
+    text-align: center;
+    color: white;
+}
+
+/* Seção de Promoções */
+
+.Promoções .container {
+    background-color: #201811;
+    padding: 30px;
+}
+
+.Promoções .container .cards:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0px 0.5px 20px 2px var(--color-4);
+}
+
+
+.Promoções .container .mini-titulo {
+    margin: 40px;
+    margin-top: 60px;
+}
+
+.Promoções .container .mini-titulo h2 {
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.Promoções .container .mini-titulo h1 {
+    font-size: 33px;
+    color: #d7cfa4;
+}
+
+.Promoções .container .Cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Promoções .container .cards {
+    margin: 50px 70px;
+    margin-left: 50px;
+    margin-top: 70px;
+    background-color: #170d04;
+    border-radius: 30px;
+    padding: 55px;
+    border: 5px solid black;
+}
+
+.Promoções .container .cards img {
+    width: 65%;
+    margin: 30px;
+    margin-left: 42.5px;
+    margin-bottom: 50px;
+}
+
+.Promoções .container .cards p {
+    text-align: center;
+    color: #7b7a71;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+
+.Promoções .container .cards h2 {
+    text-align: center;
+    margin-bottom: 27px;
+    font-size: 30px;
+    color: #fffce9;
+}
+
+.Promoções .container .cards li {
+    text-align: center;
+    padding: 20px;
+}
+
+.Promoções .container .cards button {
+    background-color: #825f41;
+    padding: 25px;
+    border: 4px solid black;
+    border-radius: 30px;
+    color: #ece5c2;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Bloco 1 Cardápio */
+
+.Bloco-cardapio1 {
+    background: #2e3524;
+    padding: 70px;
+}
+
+.Bloco-cardapio1 .container .card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Bloco-cardapio1 .container .card-1 {
+    background-color: #575e4f;
+    margin: 30px;
+    border: 2px solid #170d04;
+    border-radius: 40px;
+    padding: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.Bloco-cardapio1 .container .card-1:hover {
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 3px 3px #505a2d;
+    transform: scale(1.02);
+}
+
+.Bloco-cardapio1 .container .card-1 h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Bloco-cardapio1 .container .card-1 p {
+    font-size: 15px;
+}
+
+.Bloco-cardapio1 .container .card-1 .p1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.Bloco-cardapio1 .container .card-1 button {
+    background: var(--degrade-btn);
+    padding: 20px;
+    margin: 23px;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Bloco de WhatsApp */
+
+.Bloco-WhatsApp .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #392413;
+    padding: 100px;
+    margin-top: 70px;
+    margin: 70px;
+    border: 3px solid #170d04;
+    border-radius: 100px;
+}
+
+.Bloco-WhatsApp .container .WhatsApp h1 {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+.Bloco-WhatsApp ,.container .WhatsApp p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 13px;
+    color: white;
+    margin: 20px;
+}
+
+.Bloco-WhatsApp .container .WhatsApp button {
+    margin-top: 50px;
+    padding: 20px;
+    background: var(--degrade-btn);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.footer{
+    background: #181510;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.footer-container{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap: 50px;
+}
+
+.footer-col h2{
+    color: var(--color-Amarelo);
+    margin-bottom: 20px;
+}
+
+.footer-col h3{
+    color: var(--color-Amarelo);
+    margin-bottom: 20px;
+}
+
+.footer-col p{
+    color: #d8d8d8;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    font-weight: 650;
+}
+
+.footer-col span{
+    display: block;
+    color: #bdbdbd;
+    margin-bottom: 15px;
+}
+
+.footer-col a{
+    display: block;
+    color: #d8d8d8;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer-col a:hover{
+    color: #ff9800;
+}
+
+.footer-copy{
+    margin-top: 60px;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,.15);
+    color: #bdbdbd;
+}
+
+/* Fim do Bloco 1 Cardápio */
+
+.payment-body {
+    background: linear-gradient(135deg, #2c1c12, #5a341c);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.payment-page {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.payment-card {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    background: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.payment-summary {
+    background: #201811;
+    color: #fff;
+    padding: 40px;
+}
+
+.payment-summary .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #f4c36b;
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+}
+
+.payment-summary h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.payment-summary p {
+    color: #e7dcc6;
+    line-height: 1.6;
+}
+
+.summary-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 16px;
+}
+
+.summary-box h2 {
+    margin-bottom: 12px;
+    color: #f4c36b;
+}
+
+.summary-box p {
+    margin-bottom: 8px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 24px;
+    color: #f4c36b;
+    font-weight: 600;
+}
+
+.payment-form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.payment-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 600;
+    color: #4b3624;
+}
+
+.payment-form input,
+.payment-form select {
+    padding: 12px 14px;
+    border: 1px solid #d8ccb4;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.payment-form button {
+    margin-top: 10px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(#f29447, #d87223);
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.success-message {
+    display: none;
+    margin-top: 8px;
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+@media (max-width: 960px) {
+    .payment-card {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        background: red;
+        top: 0;
+        width: 100%;
+        left: 100%;
+    }
+
+    .NavBar .container .logo {
+        padding: 20px;
+    }
+
+    .github {
+        display: none;
+    }
+
+    .Section-Main .container {
+        flex-direction: column;
+    }
+
+    .Section-Main .container .main-text h2 {
+        text-align: center;
+    }
+
+    .Section-Main .container .main-text h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Section-Main .container .main-text p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Section-Main .container .main-img img {
+        width: 100%;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    .Bloco-Clientes .container .Clientes {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Bloco-Clientes .container .Clientes p {
+        margin-top: 50px;
+    }
+
+    .card-item .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .Text-Img .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Text-Img .container .Bloco-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Text-Img .container .Bloco-Text {
+        text-align: center;
+        margin: 30px;
+    }
+
+    .Promoções .container .Cards {
+        flex-direction: column;
+    }
+
+    .Promoções .container .cards {
+        margin: 30px;
+    }
+
+    .Promoções .container .mini-titulo {
+        margin: 65px;
+        text-align: center;
+    }
+
+    .Promoções .container .mini-titulo h2 {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .Promoções .container .cards img {
+        margin-left: 35px;
+    }
+
+    .Titulo-Cardapio .container .Titulo h1 {
+        text-align: center;
+    }
+
+    .Bloco-cardapio1 .container {
+        margin-top: -100px;
+    }
+
+    .Bloco-cardapio1 .container .card-1 {
+        flex-direction: column;
+        margin: -45px;
+        padding: 100px;
+        margin-top: 70px;
+    }
+
+    .Bloco-cardapio1 .container .card-1 h1 {
+        text-align: center;
+        margin: 30px;
+        margin-top: 20px;
+    }
+
+    .Bloco-cardapio1 .container .card-1 p {
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .Bloco-cardapio1 .container .card-1 .p1 {
+        margin-top: 45px;
+    }
+
+    .Bloco-cardapio1 .container .card-1 button {
+        margin-top: 30px;
+        padding: 20px 30px;
+    }
+
+    .Bloco-WhatsApp .container {
+        margin: 25px;
+        margin-top: 50px;
+    }
+
+    .Bloco-WhatsApp .container .WhatsApp p {
+        text-align: center;
+        margin-top: 60px;
+    }
+}

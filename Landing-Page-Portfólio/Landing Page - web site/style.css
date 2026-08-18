@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.2 linear;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-one: #000000;
+    --color-two: #161E54;
+    --color-tree: #FE7F2D;
+    --color-four: #BBE0EF;
+    --degrade-btn1: linear-gradient(#FE7F2D, #FF5C00);
+    --degrade-btn2: linear-gradient(#BBE0EF);
+}
+
+.background_color {
+    background: var(--color-two);
+}
+
+.btn-gradient {
+    padding: 10px 20px;
+    color: #EAECF0;
+    border: none;
+    cursor: pointer;
+    background-image: var(--degrade-btn1);
+}
+
+.Container {
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+section,
+footer {
+    padding: 2.7rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    color: #EAECF0;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0d0e45;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px 4px #BBE0EF;
+    margin-right: 20px;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+}
+
+.ul li {
+    margin: 0 35px;
+}
+
+.ul li a {
+    color: white;
+}
+
+main .Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 10%;
+    background: #192359;
+
+}
+
+.main-text {
+    width: 50%;
+    color: white;
+}
+
+.main-text a {
+    color: white;
+}
+
+.main-text h1 {
+    font-size: 4rem;
+
+}
+
+.main-text h2 {
+    margin-top: 30px;
+}
+
+.main-text div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-img {
+    width: 50%;
+}
+
+.main-img img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+/* menu icon */
+.menu-icon {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+.resultados {
+    background: var(--color-tree);
+}
+
+.resultados .Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultados .resultados-texto {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 50%;
+}
+
+.resultados .resultados-numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.resultados .resultados-numero p {
+    text-align: center;
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.resultados .resultados-numero p span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.diferenciais .Container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.diferenciais .card {
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.diferenciais .card:hover {
+    box-shadow: 0px 10px 67px 8px var(--color-four);
+}
+
+.diferenciais .card img {
+    width: 60px;
+}
+
+.diferenciais .card .titulo {
+    margin: 13px 0;
+    font-weight: 600;
+}
+
+.computador .Container {
+    display: flex;
+    align-items: center;
+}
+
+.computador .computador-img {
+    width: 50%;
+}
+
+.computador .computador-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.computador .computador-text {
+    width: 50%;
+    padding: 90px;
+}
+
+.computador .computador-text h2 {
+    font-size: 2.5em;
+}
+
+.computador .computador-text p {
+    margin: 20px 0;
+    color: rgb(145, 144, 144);
+}
+
+.computador .computador-text p b {
+    color: var(--color-one);
+    font-size: 25px;
+}
+
+.melhores-soluções {
+    margin-top: 20px;
+}
+
+.melhores-soluções .azul {
+    font-size: 24px;
+    font-weight: 600;
+    color: #065dae
+}
+
+.melhores-soluções h2 {
+    font-size: 2.5rem;
+}
+
+.melhores-soluções .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.melhores-soluções .cards .card-item {
+    width: 30%;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0px 35px 97px -15px rgba(0, 0, 0, 0.08);
+}
+
+.melhores-soluções .cards img {
+    width: 80px;
+}
+
+.melhores-soluções .cards .Text-abaixoimg {
+    margin: 15px;
+    color: rgb(145, 144, 144);
+}
+
+.melhores-soluções .cards .nome-card {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.melhores-soluções .cards .endtext {
+    color: rgb(145, 144, 144);
+    margin-top: 15px;
+}
+
+.melhores-soluções .cards button {
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--color-tree);
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+.melhores-soluções .cards a {
+    color: #ffffff;
+}
+
+.bloco-email {
+    margin-top: 50px;
+    background-color: var(--color-tree);
+}
+
+.bloco-email .box-email {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    border: 2.5px solid var(--color-two);
+    border-radius: 30px;
+    background-image: var(--degrade-btn2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bloco-email .box-email h2 {
+    font-size: 2.15rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.bloco-email .box-email p {
+    margin: 13px 0;
+    margin-bottom: 30px;
+}
+
+.bloco-email .box-email input {
+    width: 35%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #000000;
+    background-color: #ffffffd3;
+}
+
+.bloco-email .box-email button {
+    font-size: 15px;
+    padding: 15px ;
+    outline: none;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    background-color: hsl(210, 88%, 33%);
+    cursor: pointer;
+}
+
+.bloco-email .box-email a {
+    color: white;
+}
+
+footer {
+    background-color: var(--color-two );    
+}
+
+footer .Container {
+    display: flex;
+    color: white;
+}
+
+footer .Container ul {
+    width: 25%;
+}
+
+footer .Container h3 {
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+footer .Container .rede-sociais img {
+    margin-right: 10px;
+}
+
+footer .Container ul > p {
+    margin-bottom: 40px;
+}
+
+footer .Container li {
+    margin: 15px 0;
+}
+
+footer .Container a {
+    color: white;
+}
+/* responsivo */
+
+@media (max-width: 960px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .ul {
+        position: fixed;
+        background: rgb(22, 22, 73);
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        transition: 1s;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ul li {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .ul.ativo {
+        left: 0;
+    }
+
+    main .Container {
+        flex-direction: column;
+    }
+
+    main .Container .main-img,
+    main .Container .main-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    main .Container .main-text h1 {
+        font-size: 3rem;
+    }
+
+    main .Container .main-text div {
+        justify-content: center;
+    }
+
+    .resultados .Container {
+        flex-direction: column;
+    }
+
+    .resultados .resultados-texto,
+    .resultados .resultados-numero {
+        width: 100%;
+        text-align: center;
+    }
+
+    .resultados-numero {
+        margin-top: 30px;
+    }
+
+    .diferenciais .Container {
+        flex-direction: column;
+    }
+
+    .diferenciais .card {
+        width: 100%;
+    }
+
+    .computador .Container {
+        flex-direction: column-reverse;
+    }
+
+    .computador .computador-text,
+    .computador .computador-img {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .melhores-soluções .cards {
+        flex-direction: column;
+    }
+
+    .melhores-soluções .cards .card-item {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .bloco-email .box-email h2 {
+        font-size: 2rem;
+    }
+
+    .bloco-email .box-email input {
+        width: 90%;
+    }
+
+    .bloco-email .box-email button a {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    footer .Container {
+        flex-direction: column;
+    }
+
+    footer .Container ul {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:440px) {
+    .resultados .resultados-numero {
+        flex-direction: column;
+    }
+
+    main .container .main-text h1 {
+        font-size: 3rem;
+    }
+}

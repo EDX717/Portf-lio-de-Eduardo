@@ -1,0 +1,388 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+/* ===========================
+   RESET
+=========================== */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    background: #F8FAFC;
+
+    color: #0F172A;
+
+    line-height: 1.7;
+
+}
+
+
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+
+.maintenance-page,
+section,
+header,
+footer {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+
+
+/* ===========================
+   HERO
+=========================== */
+
+
+.hero {
+
+    text-align: center;
+
+    padding: 90px 0 70px;
+
+}
+
+
+
+.hero h1 {
+
+    font-size: 3rem;
+
+    color: #061A33;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.hero p {
+
+    max-width: 750px;
+
+    margin: auto;
+
+    color: #475569;
+
+    font-size: 1.05rem;
+
+}
+
+
+
+/* ===========================
+   BOTÃO
+=========================== */
+
+
+.btn {
+
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 15px 35px;
+
+    background: #FF8C00;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+}
+
+
+
+.btn:hover {
+
+    background: #2563EB;
+
+}
+
+
+
+/* ===========================
+   SERVIÇOS
+=========================== */
+
+
+.services {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+
+    gap: 25px;
+
+    padding: 60px 0;
+
+}
+
+
+
+.service-item {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #2c3138;
+
+}
+
+
+
+.service-item:hover {
+
+    border-color: #38BDF8;
+
+}
+
+
+
+.service-item h2 {
+
+    color: #061A33;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.service-item p {
+
+    color: #475569;
+
+}
+
+
+
+/* ===========================
+   PROCESSO
+=========================== */
+
+
+.process {
+
+    padding: 70px 0;
+
+}
+
+
+
+.process h2,
+.tools h2,
+footer h2 {
+
+    text-align: center;
+
+    color: #061A33;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.steps {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+    gap: 25px;
+
+}
+
+
+
+.steps div {
+
+    background: #EAF6FF;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    border: 1px solid #cbe3ef;
+
+}
+
+
+
+.steps span {
+
+    display: block;
+
+    color: #2563EB;
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.steps h3 {
+
+    color: #061A33;
+
+}
+
+
+
+.steps p {
+
+    color: #475569;
+
+}
+
+
+
+/* ===========================
+   SERVIÇOS REALIZADOS
+=========================== */
+
+
+.tools {
+
+    padding: 70px 0;
+
+    text-align: center;
+
+    border-top: 1px solid #E2E8F0;
+
+}
+
+
+
+.tools p {
+
+    color: #475569;
+
+    font-size: 18px;
+
+}
+
+
+
+/* ===========================
+   FINAL
+=========================== */
+
+
+footer {
+
+    padding: 60px 0;
+
+    text-align: center;
+
+    background: white;
+
+    border: 1px solid #666b72;
+
+    border-radius: 15px;
+
+    margin-bottom: 130px;
+
+}
+
+
+footer h2 {
+
+    color: #FF8C00;
+
+}
+
+
+
+footer p {
+
+    color: #4f5763;
+
+}
+
+
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+
+@media(max-width:768px){
+
+
+    .maintenance-page,
+    section,
+    header,
+    footer {
+
+        width: 95%;
+
+    }
+
+
+
+    .hero {
+
+        padding: 60px 0;
+
+    }
+
+
+
+    .hero h1 {
+
+        font-size: 2.2rem;
+
+    }
+
+
+
+    .services,
+    .steps {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+
+}
